@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Quotes.Project.Domain\Quotes.Project.Domain.csproj" />
+    <ProjectReference Include="..\Quotes.Project.Infrastructure.Data\Quotes.Project.Infrastructure.Data.csproj" />
+  </ItemGroup>
+
+</Project>
